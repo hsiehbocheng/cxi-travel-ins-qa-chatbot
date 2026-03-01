@@ -1,0 +1,1 @@
+可從國泰產險官網下載，請參考：[國泰產險海外旅遊保險試算](https://www.cathay-ins.com.tw/INSEBWeb/travel-insurance/travel-insurance-oversea/prompt)
