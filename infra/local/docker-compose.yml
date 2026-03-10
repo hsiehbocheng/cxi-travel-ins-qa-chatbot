@@ -1,0 +1,12 @@
+name: cxi-travel-ins-qa
+
+services:
+  qdrant:
+    image: qdrant/qdrant:latest
+    container_name: cxi-qdrant
+    restart: unless-stopped
+    ports:
+      - "6333:6333"
+      - "6334:6334"
+    volumes:
+      - ${QDRANT_STORAGE_HOST_PATH:?QDRANT_STORAGE_HOST_PATH is required}:/qdrant/storage
