@@ -39,3 +39,8 @@ env/
 .env
 .env.*
 !.env.example
+
+# Local infra backups
+infra/backups/
+
+key.json
